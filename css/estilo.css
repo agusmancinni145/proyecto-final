@@ -1,0 +1,163 @@
+* {
+  font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+  border: 0;
+  padding: 0; }
+
+.color-fondo {
+  display: grid;
+  grid-template-columns: repeat(10 1fr);
+  grid-template-rows: 70px 804px;
+  background-color: black;
+  color: white; }
+
+.fondo {
+  background-image: url(imagenes/LALA.jpg);
+  height: 804px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 200px; }
+
+.texto {
+  padding-bottom: 246px;
+  background-color: rgba(243, 202, 188, 0.753); }
+
+.titulo1 {
+  color: #8f0000;
+  padding: 10px; }
+
+.texto-titulo {
+  color: #8f0000;
+  padding: 10px;
+  font-size: 20px; }
+
+.parrafo1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  padding-top: 30px; }
+
+.estilo-parrafo {
+  padding-right: 200px;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: white; }
+
+.img1 {
+  padding-right: 20px; }
+
+.footer {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start; }
+
+.div2 {
+  padding-right: 880px; }
+
+.box-footer {
+  padding-top: 40px;
+  color: white; }
+
+.div {
+  background-color: #8f0000;
+  padding-top: 10px; }
+
+.nav-text {
+  color: white;
+  font-size: 25px; }
+
+.nav-text:hover {
+  background-color: #8f0000;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px; }
+
+.box-foto-herre {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 20px; }
+
+.texto-foto-herre {
+  padding-right: 10px;
+  padding-left: 498px;
+  font-size: 40px;
+  background-color: rgba(252, 215, 215, 0.658);
+  color: #8f0000; }
+
+.box-alum {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  padding-top: 20px; }
+
+.texto-alum {
+  padding-left: 10px;
+  padding-right: 400px;
+  font-size: 40px;
+  background-color: rgba(252, 215, 215, 0.658);
+  color: #8f0000; }
+
+.box-ubi {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 60px;
+  padding-top: 60px; }
+
+.titulo-ubi {
+  font-size: 30px; }
+
+.elemento-ubi {
+  background-color: rgba(252, 215, 215, 0.658);
+  width: 1213px;
+  color: #8f0000;
+  font-size: 20px; }
+
+.titulo-herre-ser {
+  font-size: 20px;
+  padding-top: 50px; }
+
+.box-list-herre {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px; }
+
+.lista-herre1 {
+  padding-left: 30px;
+  padding-right: 300px; }
+
+.titulo-alum-ser {
+  font-size: 20px; }
+
+.box-list-alum {
+  display: flex;
+  flex-direction: row; }
+
+.lista-alum1 {
+  padding-left: 30px;
+  padding-right: 300px; }
+
+.box-produc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+.box-produc2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+.box-produc3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+.box-produc-elemento7 {
+  padding-right: 100px; }
