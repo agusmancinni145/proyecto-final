@@ -11,7 +11,7 @@
   color: white; }
 
 .fondo {
-  background-image: url(imagenes/LALA.jpg);
+  background-image: url(../imagenes/LALA.jpg);
   height: 804px;
   display: flex;
   justify-content: center;
@@ -161,3 +161,21 @@
 
 .box-produc-elemento7 {
   padding-right: 100px; }
+
+.box-produc-elemento1 {
+  padding-right: 187.5px; }
+
+.box-produc-elemento2 {
+  padding-right: 187.5px; }
+
+.box-produc-elemento3 {
+  padding-right: 187.5px; }
+
+.box-produc-elemento4 {
+  padding-right: 187.5px; }
+
+.box-produc-elemento5 {
+  padding-right: 187.5px; }
+
+.box-produc-elemento6 {
+  padding-right: 187.5px; }

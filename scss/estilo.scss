@@ -14,7 +14,7 @@
 }
 
 .fondo{
-    background-image: url(imagenes/LALA.jpg);
+    background-image: url(../imagenes/LALA.jpg);
     height: 804px;
     display: flex;
     justify-content: center;
@@ -200,3 +200,8 @@
 .box-produc-elemento7{
     padding-right: 100px;
 }
+
+@for $i from 1 through 6 {
+    .box-produc-elemento#{$i} { padding-right: 187.5px; }
+  }
+  
