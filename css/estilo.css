@@ -3,11 +3,25 @@
   border: 0;
   padding: 0; }
 
+.box-footer {
+  background-color: #8f0000; }
+  .box-footer .footer {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    padding-top: 40px;
+    color: white; }
+    .box-footer .footer .div {
+      padding-top: 10px; }
+    .box-footer .footer .div2 {
+      padding-right: 880px; }
+
 .color-fondo {
   display: grid;
   grid-template-columns: repeat(10 1fr);
   grid-template-rows: 70px 804px;
-  background-color: black;
+  background-color: #000000;
   color: white; }
 
 .fondo {
@@ -16,6 +30,8 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  padding-right: 200px;
+  padding-left: 0;
   padding-right: 200px; }
 
 .texto {
@@ -39,30 +55,14 @@
   padding-top: 30px; }
 
 .estilo-parrafo {
-  padding-right: 200px;
   padding-left: 20px;
+  padding-right: 200px;
   padding-top: 20px;
   color: white; }
 
 .img1 {
+  padding-left: 0;
   padding-right: 20px; }
-
-.footer {
-  padding-top: 10px;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-start; }
-
-.div2 {
-  padding-right: 880px; }
-
-.box-footer {
-  padding-top: 40px;
-  color: white; }
-
-.div {
-  background-color: #8f0000;
-  padding-top: 10px; }
 
 .nav-text {
   color: white;
@@ -82,10 +82,10 @@
   padding-top: 20px; }
 
 .texto-foto-herre {
-  padding-right: 10px;
   padding-left: 498px;
+  padding-right: 10px;
   font-size: 40px;
-  background-color: rgba(252, 215, 215, 0.658);
+  background-color: rgba(243, 202, 188, 0.753);
   color: #8f0000; }
 
 .box-alum {
@@ -97,8 +97,10 @@
 .texto-alum {
   padding-left: 10px;
   padding-right: 400px;
+  padding-left: 10px;
+  padding-right: 400px;
   font-size: 40px;
-  background-color: rgba(252, 215, 215, 0.658);
+  background-color: rgba(243, 202, 188, 0.753);
   color: #8f0000; }
 
 .box-ubi {
@@ -106,13 +108,15 @@
   flex-direction: column;
   justify-content: flex-start;
   padding-left: 60px;
-  padding-top: 60px; }
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 0px; }
 
-.titulo-ubi {
-  font-size: 30px; }
+.titulo-ubi, .titulo-alum-ser {
+  font-size: 25px; }
 
 .elemento-ubi {
-  background-color: rgba(252, 215, 215, 0.658);
+  background-color: rgba(243, 202, 188, 0.753);
   width: 1213px;
   color: #8f0000;
   font-size: 20px; }
@@ -129,9 +133,6 @@
 .lista-herre1 {
   padding-left: 30px;
   padding-right: 300px; }
-
-.titulo-alum-ser {
-  font-size: 20px; }
 
 .box-list-alum {
   display: flex;

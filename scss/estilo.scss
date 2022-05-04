@@ -4,12 +4,20 @@
     padding: 0;  
 }
 
+@import "./_footer";
+@import "./_colores";
+
+@mixin sizes($padding-left,$padding-rigth) {
+    padding-left: $padding-left;
+    padding-right: $padding-rigth;
+}
+
 .color-fondo{
     display: grid;
     grid-template-columns: repeat(10 1fr);
     grid-template-rows:70px 804px;
-    background-color: black;
-    color: white;
+    background-color: map-get($colores, color1);
+    color: map-get($colores, color2);
 
 }
 
@@ -20,21 +28,22 @@
     justify-content: center;
     align-items: flex-end;
     padding-right: 200px;
+    @include sizes(0, 200px)
 }
 
 .texto{
     padding-bottom: 246px;
-    background-color: rgba(243, 202, 188, 0.753);
+    background-color: map-get($colores, color4);
 }
 
 .titulo1{
-    color: #8f0000;
+    color:  map-get($colores, color3);
     padding: 10px;
 
 }
 
 .texto-titulo{
-    color: #8f0000;
+    color: map-get($colores, color3);
     padding: 10px;
     font-size: 20px;
  
@@ -49,51 +58,24 @@
     
 }
 .estilo-parrafo{
-    padding-right: 200px;
-    ;
-    padding-left: 20px;
+    @include sizes(20px, 200px);
     padding-top: 20px;
-    color: white;
+    color: map-get($colores, color2);
 }
 .img1{
-    padding-right: 20px;
+    @include sizes(0, 20px)
 }
-
-.footer{
-    padding-top: 10px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-}
-
-.div2{
-    padding-right: 880px;
- 
-}
-
-.box-footer{
-    padding-top: 40px;
-    color: white;
-
-}
-
-.div{
-    background-color: #8f0000;
-    padding-top: 10px;
-}
-
 
 .nav-text{
-    color: white;
+    color: map-get($colores, color2);
     font-size: 25px;
 }
 
 .nav-text:hover{
-    background-color: #8f0000;
+    background-color: map-get($colores, color3);
     padding-top: 10px;
     padding-bottom: 5px;
-    padding-left: 3px;
-    padding-right: 3px;
+    @include sizes(3px, 3px);
 }
 
 .box-foto-herre{
@@ -104,11 +86,10 @@
 }
 
 .texto-foto-herre{
-    padding-right:10px ;
-    padding-left: 498px;
+    @include sizes(498px, 10px);
     font-size: 40px;
-    background-color: rgba(252, 215, 215, 0.658);
-    color: #8f0000;
+    background-color: map-get($colores, color4);
+    color: map-get($colores, color3);
 }
 
 .box-alum{
@@ -121,9 +102,10 @@
 .texto-alum{
     padding-left: 10px;
     padding-right:400px;
+    @include sizes(10px, 400px);
     font-size: 40px;
-    background-color: rgba(252, 215, 215, 0.658);
-    color: #8f0000;
+    background-color: map-get($colores, color4);
+    color: map-get($colores, color3);
 }
 
 .box-ubi{
@@ -132,16 +114,17 @@
     justify-content: flex-start;
     padding-left: 60px;
     padding-top: 60px;
+    @include sizes(60px, 0px);
 }
 
 .titulo-ubi{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .elemento-ubi{
-    background-color: rgba(252, 215, 215, 0.658);
+    background-color: map-get($colores, color4);
     width: 1213px;
-    color: #8f0000;
+    color: map-get($colores, color3);
     font-size: 20px;
 }
 
@@ -158,12 +141,11 @@
 }
 
 .lista-herre1{
-    padding-left: 30px;
-    padding-right: 300px;
+    @include sizes(30px, 300px);
 }
 
 .titulo-alum-ser{
-    font-size: 20px;
+    @extend .titulo-ubi
 }
 
 .box-list-alum{
@@ -172,8 +154,7 @@
 }
 
 .lista-alum1{
-    padding-left: 30px;
-    padding-right: 300px;
+    @include sizes(30px, 300px);
 }
 
 .box-produc{

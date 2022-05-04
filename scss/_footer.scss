@@ -1,0 +1,24 @@
+
+@import "./_colores";
+
+.box-footer{
+    background-color: map-get($colores, color3);
+    .footer{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        padding-top: 40px;
+        color: map-get($colores, color2);
+
+        .div{
+            padding-top: 10px;
+        }
+        .div2{
+            padding-right: 880px;
+        }
+    }
+}
+
+
+
